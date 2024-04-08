@@ -23,6 +23,16 @@ body {
   height: 100%;
 }
 
+/* body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: var(--primary-color);
+  margin: 20px 10%;
+  min-width: 320px;
+  height: 100%;
+}
+*/
+
 #name {
   font-family: Pinyon Script, cursive;
   font-size: 3.5em;
@@ -207,8 +217,7 @@ a:hover {
 /* TABLET, IPAD */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
-    font-size: 16px; /* Adjust font size */
-    margin: 20px 40px; /* Adjust margins */
+    margin: 20px 24px;
     min-width: 80%;
   }
 
@@ -217,10 +226,45 @@ a:hover {
   }
 
   .specialities {
-    font-size: 0.8em; /* Adjust specialities font size */
+    font-size: 0.8em;
   }
 
   .container {
-    grid-template-columns: 1fr; /* Adjust grid layout */
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #image-container {
+    height: 40%;
+  }
+
+  .photo-container-2,
+  .photo-container-3 {
+    position: relative;
+  }
+
+  .photo-container-1 {
+    display: none;
+  }
+
+  .photo-container-2 {
+    width: 45%;
+    height: auto;
+    bottom: 0;
+    right: 0;
+  }
+
+  .photo-container-3 {
+    width: 20%;
+    height: auto;
+    top: 20px;
+    right: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 768px) {
+  body {
+    margin: 20px 24px;
+    min-width: 80%;
   }
 }
