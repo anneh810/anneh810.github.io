@@ -1,7 +1,8 @@
 :root {
   --primary-color: #f4ffe6;
   --background-color: #0b1401;
-  --secondary-color: #f89595;
+  --secondary-color: #dbee6e;
+  --tertiary-color: #f89595;
   font-size: 18px;
 }
 
@@ -10,7 +11,7 @@
 }
 
 ::selection {
-  background-color: var(--secondary-color);
+  background-color: var(--tertiary-color);
   color: var(--background-color);
 }
 
