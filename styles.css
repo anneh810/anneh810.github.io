@@ -262,9 +262,14 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 768px) {
+/* TABLET, IPAD or SMALL LAPTOP SCREEN PT.2*/
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
   body {
-    margin: 20px 24px;
+    margin: 20px 40px;
     min-width: 80%;
+  }
+
+  .photo-container-1 {
+    right: 30%;
   }
 }
